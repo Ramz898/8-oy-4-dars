@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+  <html lang="en"> 
+  <head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Interactive UI</title> 
+    <link rel="stylesheet" href="style.css"> 
+  </head> 
+  <body> 
+    <div class="container"> 
+        <div class="input-section"> 
+        <input id="numberInput" type="number" placeholder="Enter your number"> 
+        <button id="sendButton">Send</button> 
+      </div> 
+ 
+      <div class="counter-section"> 
+        <button id="decrement" class="counter-button">-</button> 
+        <span id="displayNumber" class="counter-display">19</span> 
+        <button id="increment" class="counter-button">+</button> 
+      </div> 
+ 
+      <div class="color-picker-section"> 
+        <label for="colorPicker">Select color:</label> 
+        <div id="colorBox" class="color-box"></div> 
+         
+        <input id="colorPicker" type="color" class="hidden"> 
+      </div> 
+ 
+      <div id="message" class="hidden"></div> 
+    </div> 
+ 
+    <script src="script.js"></script> 
+  </body> 
+  </html>
